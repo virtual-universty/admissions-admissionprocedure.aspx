@@ -11,6 +11,21 @@
     .none{
         text-decoration:none !important;
     }
+	.blink {
+  animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
   </style>
 
     
@@ -110,7 +125,7 @@
         <tr id="TableRow1" style="background-color: #CCC;">
 			
             <td style=" width: 60%;">
-                <span class=""><b>Follow our Whatsapp Channel for timely Updates ➔</b></span>
+                <span class=""><b>Follow our Whatsapp Channel 📲  for timely Updates ➔&nbsp&nbsp</b></span><span style="color:red;" class="blink"><b>( Must Follow )</b></span>
             </td>
 
             <td colspan="2" style=" text-align:center; width: 20%;">
